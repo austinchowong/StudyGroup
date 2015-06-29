@@ -22,6 +22,6 @@ test "valid signup information" do
            password_confirmation: "password" }
     end
 
-    assert_template 'users/new'
+    assert_template 'users/show'
   end
 end

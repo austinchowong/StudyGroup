@@ -52,8 +52,7 @@ end
   duplicate_user = @user.dup
   duplicate_user.email = @user.email.upcase
   @user.save
-  ass
-ert_not duplicate_user.valid?
+  assert_not duplicate_user.valid?
   end
 
   test 'password should be present (nonblank)' do
