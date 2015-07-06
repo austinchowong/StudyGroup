@@ -1,7 +1,7 @@
 <% provide(:title, "Help") %>
 <!DOCTYPE html>
 
-    <title><%= full_title(yield(:title))%></title>
+    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
  
     <h1>Help</h1>
     <p>
